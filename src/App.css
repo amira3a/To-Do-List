@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+    color: azure;
+}
+.App{
+    background-color: black;
+    margin:10% ;
+    padding: 50px;
+    text-align: center;
+    border: 1px solid snow;
+    border-radius: 25px;
+}
+.list{
+    background-color: rgb(78, 75, 75);
+    padding: 0px;
+    
+}
+.difstyle{
+    text-decoration: line-through;
+    list-style:"✔️" ;
+}
+li{
+    max-width: 80%;
+    overflow-wrap: break-word;
+    padding-left: 5%;
+}
+.listItem{
+    display: flex;
+    cursor: pointer;
+    font-size: larger;
+    list-style:"➡️" ;
+    padding-right: 5%; 
+}
+.delicon{
+    margin-left: 3%;
+}
+.taskin{
+    background-color: aliceblue;
+}
